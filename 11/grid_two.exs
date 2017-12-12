@@ -1,4 +1,9 @@
-defmodule Grid do
+defmodule GridTwo do
+  def get_farthest([]), do: 0
+  def get_farthest(list) do
+    max(get_count(list), get_farthest(Enum.drop list, -1))
+  end
+
   def get_count(list) do
     # Trying three different coordinate systems and seeing which one
     # gives the shortest distance
@@ -43,5 +48,5 @@ end
 IO.read(:stdio, :line)
 |> String.trim
 |> String.split(",")
-|> Grid.get_count
+|> GridTwo.get_farthest
 |> IO.puts
