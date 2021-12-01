@@ -1,0 +1,15 @@
+(ns advent-2021.measurements)
+
+(defn count-increases
+  [input]
+  (->> input
+       (partition 2 1)
+       (filter (fn [[left right]] (> right left)))
+       count))
+
+(defn read-input
+  [stream]
+  (let [raw (clojure.string/trim (slurp stream))]
+       (map #(Integer/parseInt %) (clojure.string/split-lines raw))))
+
+(-> *in* read-input count-increases println)
