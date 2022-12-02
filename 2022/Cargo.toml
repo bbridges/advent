@@ -1,0 +1,11 @@
+[package]
+name = "advent_2022"
+version = "0.1.0"
+
+[[bin]]
+name = "01"
+path = "01/calories.rs"
+
+[[bin]]
+name = "01-2"
+path = "01/calories_two.rs"
