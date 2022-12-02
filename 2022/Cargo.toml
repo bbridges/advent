@@ -9,3 +9,11 @@ path = "01/calories.rs"
 [[bin]]
 name = "01-2"
 path = "01/calories_two.rs"
+
+[[bin]]
+name = "02"
+path = "02/rock_paper_scissors.rs"
+
+[[bin]]
+name = "02-2"
+path = "02/rock_paper_scissors_two.rs"
