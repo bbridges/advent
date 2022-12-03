@@ -17,3 +17,11 @@ path = "02/rock_paper_scissors.rs"
 [[bin]]
 name = "02-2"
 path = "02/rock_paper_scissors_two.rs"
+
+[[bin]]
+name = "03"
+path = "03/rucksack.rs"
+
+[[bin]]
+name = "03-2"
+path = "03/rucksack_two.rs"
