@@ -25,3 +25,11 @@ path = "03/rucksack.rs"
 [[bin]]
 name = "03-2"
 path = "03/rucksack_two.rs"
+
+[[bin]]
+name = "04"
+path = "04/cleanup.rs"
+
+[[bin]]
+name = "04-2"
+path = "04/cleanup_two.rs"
