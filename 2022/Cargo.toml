@@ -33,3 +33,11 @@ path = "04/cleanup.rs"
 [[bin]]
 name = "04-2"
 path = "04/cleanup_two.rs"
+
+[[bin]]
+name = "05"
+path = "05/crates.rs"
+
+[[bin]]
+name = "05-2"
+path = "05/crates_two.rs"
