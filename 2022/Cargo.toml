@@ -49,3 +49,11 @@ path = "06/marker.rs"
 [[bin]]
 name = "06-2"
 path = "06/marker_two.rs"
+
+[[bin]]
+name = "07"
+path = "07/directories.rs"
+
+[[bin]]
+name = "07-2"
+path = "07/directories_two.rs"
