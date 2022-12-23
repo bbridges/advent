@@ -57,3 +57,11 @@ path = "07/directories.rs"
 [[bin]]
 name = "07-2"
 path = "07/directories_two.rs"
+
+[[bin]]
+name = "08"
+path = "08/treetops.rs"
+
+[[bin]]
+name = "08-2"
+path = "08/treetops_two.rs"
