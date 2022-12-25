@@ -73,3 +73,11 @@ path = "09/rope.rs"
 [[bin]]
 name = "09-2"
 path = "09/rope_two.rs"
+
+[[bin]]
+name = "10"
+path = "10/cathode.rs"
+
+[[bin]]
+name = "10-2"
+path = "10/cathode_two.rs"
