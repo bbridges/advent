@@ -81,3 +81,11 @@ path = "10/cathode.rs"
 [[bin]]
 name = "10-2"
 path = "10/cathode_two.rs"
+
+[[bin]]
+name = "11"
+path = "11/monkeys.rs"
+
+[[bin]]
+name = "11-2"
+path = "11/monkeys_two.rs"
