@@ -105,3 +105,11 @@ path = "13/packets.rs"
 [[bin]]
 name = "13-2"
 path = "13/packets_two.rs"
+
+[[bin]]
+name = "14"
+path = "14/sand.rs"
+
+[[bin]]
+name = "14-2"
+path = "14/sand_two.rs"
