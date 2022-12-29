@@ -1,6 +1,10 @@
 [package]
 name = "advent_2022"
 version = "0.1.0"
+edition = '2021'
+
+[dependencies]
+regex = "1"
 
 [[bin]]
 name = "01"
@@ -113,3 +117,11 @@ path = "14/sand.rs"
 [[bin]]
 name = "14-2"
 path = "14/sand_two.rs"
+
+[[bin]]
+name = "15"
+path = "15/beacons.rs"
+
+[[bin]]
+name = "15-2"
+path = "15/beacons_two.rs"
